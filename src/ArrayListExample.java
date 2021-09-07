@@ -1,6 +1,5 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ArrayListExample {
@@ -8,7 +7,7 @@ public class ArrayListExample {
         Scanner scanner = new Scanner(new File("words.txt"));
         String[] words = new String[1000];
         int i = 0;
-        ArrayList<String> words2 = new ArrayList<>();
+
         while (scanner.hasNext()) {
             words[i] = scanner.next();
             i++;
