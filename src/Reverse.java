@@ -37,6 +37,13 @@ public class Reverse {
 			}
 		}
 
+		// Task 3 Deux
+		for (String word : words) {
+			if (!word.endsWith("s")) {
+				System.out.print(word + " ");
+			}
+		}
+
 
 	}
 }
